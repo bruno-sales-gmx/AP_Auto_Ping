@@ -38,7 +38,9 @@ if __name__ == "__main__":
 
     print("   AP's online:  %s" % list(responses.keys()))
     print("   AP's sem resposta: %s" % no_responses)
-
+    
+    
+#
 #Segunda tentativa de Ping, espera-se que a conexão esteja estavel porém com latência acima de 1ms
     # print("   --- Verificando novos retornos ---")
     # responses, no_responses = mp.receive(0.1)
